@@ -1,0 +1,32 @@
+:root {
+  --main: #37272b;
+  --secondary: #f7eeee;
+}
+
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/fonts/Vazir.eot');
+  src: url('../fonts/fonts/Vazir.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/fonts/Vazir.woff2') format('woff2'), 
+  url('../fonts/fonts/Vazir.woff') format('woff'), 
+  url('../fonts/fonts/Vazir.ttf') format('truetype');
+ }
+ @font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/fonts/Vazir-Bold.eot');
+  src: url('../fonts/fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/fonts/Vazir-Bold.woff2') format('woff2'), 
+  url('../fonts/fonts/Vazir-Bold.woff') format('woff'), 
+  url('../fonts/fonts/Vazir-Bold.ttf') format('truetype');
+ }
+  
+
+ body{
+  font-family: 'Vazir', Arial, sans-serif;
+  font-weight:normal;
+  direction: rtl;
+  }

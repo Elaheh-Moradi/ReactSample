@@ -1,0 +1,56 @@
+@import '../../../style/main.css';
+.tabs{
+  list-style-type: none;
+  display: flex;
+  flex: 3;
+  justify-content: center;
+}
+
+li .tab{
+  font-family: "Vazir";
+}
+.tab {
+  --animation-time: 200ms;
+  padding-left: 7rem !important;
+  position: relative;
+  overflow: hidden;
+  color: var(--main);
+  --underline-color: #ad5738;
+  --underline-size: 5px;
+
+  color: inherit;
+  font-family: system-ui, sans-serif;
+  padding: 20px;
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.tabs-wrapper{
+  display: flex;
+  flex: 3;
+}
+  
+.tab::after {
+  content: '';
+  display: block;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: var(--underline-size, 2px);
+  position: absolute;
+  background-color: var(--underline-color, currentColor);
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.tabs:hover .tab:hover::after,
+.tabs-wrapper:hover .tabs:hover .tab:hover::after {
+  transition-delay: 0ms, 0ms;
+}
+
+.tab:hover::after {
+  transform: translateX(0%);
+  opacity: 1;
+}
+

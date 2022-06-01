@@ -1,0 +1,18 @@
+article {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 1rem;
+  padding: 1rem 3rem;
+  color: var(--main);
+  direction: rtl;
+  /* height: 100% !important; */
+}
+/* .wrapper {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 1rem;
+  padding: 1rem 3rem;
+  color: var(--main);
+  direction: rtl;
+  height: 100% !important;
+} */
+
